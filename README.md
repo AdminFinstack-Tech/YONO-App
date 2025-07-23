@@ -1,16 +1,30 @@
-# yono_business_flutter
-
-A new Flutter project.
+# YONO-App
+YONO Business Flutter Application
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a Flutter application for YONO Business banking.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
+- Flutter SDK
+- Dart
+- Android Studio / Xcode
+- Firebase configuration files
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Setup
+1. Clone the repository
+2. Run `flutter pub get`
+3. Add Firebase configuration files:
+   - `ios/Runner/GoogleService-Info.plist`
+   - `android/app/google-services.json`
+4. Run the app: `flutter run`
+
+### Features
+- Multi-language support
+- Account management
+- Payment processing
+- Transaction history
+- Business dashboard
 
 For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[online documentation](https://docs.flutter.dev/)
